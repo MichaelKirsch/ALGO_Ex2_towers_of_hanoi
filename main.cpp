@@ -12,7 +12,7 @@ void move(int& count,int n, int src, int work, int dest)
         move(count,n-1,work,src,dest);
 }
 
-int call_the_towers(int amount)
+int monks_do_your_damn_job(int amount)
 {
     int n = amount;
     int dest = 3;
@@ -27,9 +27,8 @@ int call_the_towers(int amount)
 
 
 int main() {
-    call_the_towers(3);
-    call_the_towers(4);
-    call_the_towers(5);
-
+    monks_do_your_damn_job(3);
+    monks_do_your_damn_job(4);
+    monks_do_your_damn_job(5);
     return 0;
 }
