@@ -30,5 +30,9 @@ int main() {
     monks_do_your_damn_job(3);
     monks_do_your_damn_job(4);
     monks_do_your_damn_job(5);
+
+    //Formula is (2^n)-1
+
+
     return 0;
 }
